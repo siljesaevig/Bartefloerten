@@ -46,7 +46,7 @@ li.dropdown {
     position: absolute;
     background-color: #FFF;
     min-width: 160px;
-    opacity: 0.6;
+    opacity: 0.9;
     
 }
 
@@ -73,16 +73,36 @@ li.dropdown {
     margin-left: 80px;
 }
 
+#slide1{
+	width: 80.5%;
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
 #t_kart {
 	margin-left: 80px;
-	width:20%;
+	width:250px;
 	height: 50%;
 
+
 }
+
 .info{
 	background-color: #F2F1EF;
 	margin-left: 80px;
 	width: 80.5%;
+	min-height: 350px;
+	max-height: 500px;
+}
+.info h2{
+	margin-left: 300px;
+	margin-top: -20%;
+}
+
+.info p{
+	position: relative;
+	margin-left: 300px;
+	width: 60%;
 }
 
 #trondheim{
@@ -98,6 +118,7 @@ li.dropdown {
     width: 80%;
     height: 1px;
     margin-left: 80px;
+    margin-top: 100px;
 
 
 }
@@ -106,5 +127,6 @@ footer iframe{
    padding: 10px;
    margin-bottom:100px;
    margin-right: 80px;
+   margin-top: 100px;
    display: inline-block;
     }
