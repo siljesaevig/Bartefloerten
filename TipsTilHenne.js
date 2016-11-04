@@ -24,6 +24,10 @@ const contentList = {
 
 function atABar() {
 	var ullist = document.getElementById('content-list');
+
+	while (ullist.firstChild) {
+		ullist.removeChild(ullist.firstChild);
+	}
 	
 	for (var i = 0; i < contentList.list.length; i++) {
 		var topic = document.createElement("li");
@@ -40,7 +44,6 @@ function atABar() {
 }
 
 function getContent(id) {
-	console.log(id)
 	var p = document.getElementById('content');
 	p.innerHTML = contentList.list[id].content;
 

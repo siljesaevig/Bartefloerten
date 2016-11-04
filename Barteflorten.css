@@ -5,6 +5,17 @@ body{
 	font-size: 16px;
 
 }
+
+#lines {
+    color : green;
+    list-style-type: none;
+    overflow: scroll;
+}
+
+#line li {
+    float: right;
+}
+
 h1{
 	margin-left: 4%;
 	text-align: center;
