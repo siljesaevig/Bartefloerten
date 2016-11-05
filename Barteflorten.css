@@ -22,8 +22,13 @@ h1{
 	
 }
 
+h2{margin-left: 4%;
+   text-align: center;
 
-ul {
+}
+
+
+#navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -31,12 +36,12 @@ ul {
     background-color: #FFF;
 }
 
-li {
+#navbar li {
     float: left;
     margin-left: 75px;
 }
 
-li a, .dropbtn {
+#navbar li a, .dropbtn {
     display: inline-block;
     color: #6C7A89;
     text-align: center;
@@ -44,11 +49,11 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+#navbar li a:hover, .dropdown:hover .dropbtn {
     background-color: #F2F1EF;
 }
 
-li.dropdown {
+#navbar li.dropdown {
     display: inline-block;
 }
 
@@ -140,4 +145,29 @@ footer iframe{
    margin-right: 80px;
    margin-top: 100px;
    display: inline-block;
-    }
+}
+
+
+#podlist li{
+    margin-top: 15px;
+    margin-left: 40px;
+    display: inline-block;
+    background-color: #F2F1EF;
+    height: 30px;
+    width: 60px; 
+
+
+}
+
+#ms{
+    height: 240px;
+    width: 200px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+
+
+
+
+
