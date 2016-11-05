@@ -147,6 +147,9 @@ footer iframe{
    display: inline-block;
 }
 
+#podcastlist{
+    width: 30%;
+}
 
 #podlist li{
     margin-top: 15px;
@@ -164,6 +167,20 @@ footer iframe{
     width: 200px;
     margin-left: 80px;
     margin-top: 30px;
+}
+
+
+#audio{
+    width: 60%;
+}
+#audio h3 {
+    margin-left: 50%;
+    margin-bottom: 
+}
+
+#audio audio {
+    margin-left: 50%;
+    margin-bottom: 
 }
 
 
