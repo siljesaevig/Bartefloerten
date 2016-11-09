@@ -147,6 +147,11 @@ footer iframe{
    display: inline-block;
 }
 
+#tipsliste{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
 #podcastlist{
     width: 30%;
 }
