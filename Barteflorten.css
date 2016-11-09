@@ -28,6 +28,7 @@ h2{
 }
 
 
+
 #navbar ul {
     list-style-type: none;
     margin: 0;
@@ -153,35 +154,29 @@ footer iframe{
     margin-left: 80px;
 }
 
-#podcastlist{
-    width: 30%;
+
+#podlist li {
+    display: block;
+    list-style: none;
+    margin-left: 40px
+}
+#podlist p {
+    display: block;
+    list-style: none;
+    margin-left: 0px
 }
 
-#podlist li{
-    margin-top: 15px;
+
+#audio audio{
+    margin-left: 0px;
+
+}
+
+#audio h3, p{
     margin-left: 80px;
-    display: inline-block;
-    background-color: #F2F1EF;
-    height: 30px;
-    width: 60px; 
-
-
 }
 
 
-
-#audio{
-    width: 60%;
-}
-#audio h3 {
-    margin-left: 50%;
-    margin-bottom: 
-}
-
-#audio audio {
-    margin-left: 50%;
-    margin-bottom: 
-}
 
 
 
