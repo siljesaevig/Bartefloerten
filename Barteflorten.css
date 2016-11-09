@@ -159,6 +159,7 @@ footer iframe{
     display: block;
     list-style: none;
     margin-left: 40px
+    
 }
 #podlist p {
     display: block;
@@ -174,6 +175,7 @@ footer iframe{
 
 #audio h3, p{
     margin-left: 80px;
+    width: 81%
 }
 
 
