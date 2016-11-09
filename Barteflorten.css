@@ -139,7 +139,7 @@ h2{
 
 
 }
-footer iframe{
+footer p{
    position: absolute;
    padding: 10px;
    margin-bottom:100px;
@@ -147,6 +147,13 @@ footer iframe{
    margin-top: 100px;
    display: inline-block;
 }
+footer iframe{
+   position: absolute;
+   padding: 10px;
+   margin-bottom:100px;
+   margin-left: 300px;
+   margin-top: 50px;
+   display: inline-block;}
 
 #tipsliste{
     width: 80.5%;
@@ -159,7 +166,7 @@ footer iframe{
     display: block;
     list-style: none;
     margin-left: 40px
-    
+
 }
 #podlist p {
     display: block;
@@ -176,6 +183,16 @@ footer iframe{
 #audio h3, p{
     margin-left: 80px;
     width: 81%
+}
+
+.foot p{
+    margin-left: 0px;
+    font-size: 22px;
+}
+.sosialeMedier {
+    height: 80px;
+    margin-top: 250px;
+    margin-left: 20px;
 }
 
 
