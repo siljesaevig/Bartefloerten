@@ -30,6 +30,8 @@ const lines = [
 	"Of all your beautiful curves, your smile is my favourite."
 ]
 
+
+
 window.onload = function() {
 	var div = document.getElementById('lines');
 
