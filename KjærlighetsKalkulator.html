@@ -5,6 +5,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="Barteflorten.css"/>
         <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto+Condensed|Ubuntu" rel="stylesheet">
+        <script type="text/javascript" src="calculator.js"></script>
     </head>
     <body>
 		<h1>Barteflørten</h1>
@@ -29,19 +30,71 @@
 			</ul>
 			<section id="navbarline"></section>
 		</div>
-		<div id="slideshow">
-			<img  id="slide1" src="img/cell.jpeg">
+		
+		<div>
+			<form id="male">
+				<label for="name">Real name</label>
+	        	<br />
+	        	<input type="text" name="name" id="name" required />
+	        	<br />
+	        	<label>Gender
+        			<input type="radio" name="mgender" value="0" required /> Male
+ 					<input type="radio" name="mgender" value="1" required /> Female
+        		</label>
+        		<br />
+        		<label for="age">Age</label>
+	        	<br />
+	        	<input type="number" name="age" id="age" required />
+	        	<br />
+
+				<select id="sign">
+				  <option value="0">Aries</option>
+				  <option value="1">Taurus</option>
+				  <option value="2">Gemini</option>
+				  <option value="3">Cancer</option>
+				  <option value="4">Leo</option>
+				  <option value="5">Virgo</option>
+				  <option value="6">Libra</option>
+				  <option value="7">Scorpio</option>
+				  <option value="8">Sagittarius</option>
+				  <option value="9">Capricorn</option>
+				  <option value="10">Aquarius</option>
+				  <option value="11">Pisces</option>
+				</select>
+			</form>
+			<form id="female">
+				<label for="name">Real name</label>
+	        	<br />
+	        	<input type="text" name="name" id="fname" required />
+	        	<br />
+	        	<label>Gender
+        			<input type="radio" name="fgender" value="0" required /> Male
+ 					<input type="radio" name="fgender" value="1" required /> Female
+        		</label>
+        		<br />
+        		<label for="age">Age</label>
+	        	<br />
+	        	<input type="number" name="age" id="fage" required />
+	        	<br />
+	        	<select id="fsign">
+				  <option value="0">Aries</option>
+				  <option value="1">Taurus</option>
+				  <option value="2">Gemini</option>
+				  <option value="3">Cancer</option>
+				  <option value="4">Leo</option>
+				  <option value="5">Virgo</option>
+				  <option value="6">Libra</option>
+				  <option value="7">Scorpio</option>
+				  <option value="8">Sagittarius</option>
+				  <option value="9">Capricorn</option>
+				  <option value="10">Aquarius</option>
+				  <option value="11">Pisces</option>
+				</select>
+			</form>
 		</div>
-
-		<div class="info">
-			<img id="t_kart" src="img/trondheim.jpeg"/>
-			<h2> Dating i Trondheim</h2>
-			<p> Det sies at Trondheim holder en kjærestegaranti, noe som er spesielt. Hvorfor? blabla blablablabla Det sies at Trondheim holder en kjærestegaranti, noe som er spesielt. Hvorfor? blabla blablablabla Det sies at Trondheim holder en kjærestegaranti, noe som er spesielt. Hvorfor? blabla blablablabla Det sies at Trondheim holder en kjærestegaranti, noe som er spesielt. Hvorfor? blabla blablablabla Det sies at Trondheim holder en kjærestegaranti, noe som er spesielt. Hvorfor? blabla blablablabla 
-			</p>
+		<div id="result">
+			<button id="resultBtn" onclick="cal()" >Calculate!</button>
 		</div>
-
-		<img id="trondheim" src="img/ttown2.jpeg"/>
-
 
 		<footer>
 			<section id="footerline">
