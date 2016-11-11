@@ -23,13 +23,19 @@ form {
 }
 
 h1{
-	margin-left: 4%;
+	
 	text-align: center;
 	
 }
 
+h2{
+   text-align: center;
 
-ul {
+}
+
+
+
+#navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,12 +43,12 @@ ul {
     background-color: #FFF;
 }
 
-li {
+#navbar li {
     float: left;
     margin-left: 75px;
 }
 
-li a, .dropbtn {
+#navbar li a, .dropbtn {
     display: inline-block;
     color: #6C7A89;
     text-align: center;
@@ -50,11 +56,11 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+#navbar li a:hover, .dropdown:hover .dropbtn {
     background-color: #F2F1EF;
 }
 
-li.dropdown {
+#navbar li.dropdown {
     display: inline-block;
 }
 
@@ -139,11 +145,66 @@ li.dropdown {
 
 
 }
-footer iframe{
+footer p{
    position: absolute;
    padding: 10px;
    margin-bottom:100px;
    margin-right: 80px;
    margin-top: 100px;
    display: inline-block;
-    }
+}
+footer iframe{
+   position: absolute;
+   padding: 10px;
+   margin-bottom:100px;
+   margin-left: 300px;
+   margin-top: 50px;
+   display: inline-block;}
+
+#tipsliste{
+    width: 80.5%;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+
+#podlist li {
+    display: block;
+    list-style: none;
+    margin-left: 40px
+
+}
+#podlist p {
+    display: block;
+    list-style: none;
+    margin-left: 0px
+}
+
+
+#audio audio{
+    margin-left: 0px;
+
+}
+
+#audio h3, p{
+    margin-left: 80px;
+    width: 81%
+}
+
+.foot p{
+    margin-left: 0px;
+    font-size: 22px;
+}
+.sosialeMedier {
+    height: 80px;
+    margin-top: 250px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
