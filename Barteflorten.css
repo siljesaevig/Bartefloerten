@@ -1,3 +1,10 @@
+/* 
+FILE NAME: Bartefloerten.css
+WRITTEN BY: Silje Sævig, Trine Lise Helgesen, Margit Schefte
+WHEN: November 2016
+PURPOSE: Style Barteflørten
+*/
+
 body{
 	background-color: #fff;
 	color: #6C7A89;
@@ -40,7 +47,6 @@ form {
 #lines {
     color : gray;
     list-style-type: none;
-    overflow: scroll;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -67,7 +73,7 @@ h2{
 }
 
 
-#navbar ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -75,12 +81,12 @@ h2{
     background-color: #FFF;
 }
 
-#navbar li {
+.navbar li {
     float: left;
     margin-left: 75px;
 }
 
-#navbar li a, .dropbtn {
+.navbar li a, .dropbtn {
     display: inline-block;
     color: #6C7A89;
     text-align: center;
@@ -88,11 +94,11 @@ h2{
     text-decoration: none;
 }
 
-#navbar li a:hover, .dropdown:hover .dropbtn {
+.navbar li a:hover, .dropdown:hover .dropbtn {
     background-color: #F2F1EF;
 }
 
-#navbar li.dropdown {
+.navbar li.dropdown {
     display: inline-block;
 }
 
@@ -120,7 +126,7 @@ h2{
     display: block;
 }
 
-#navbarline{
+.navbarline{
 	position: absolute;
 	background-color: #6C7A89;
     width: 80%;
@@ -167,7 +173,7 @@ h2{
 }
 
 
-#footerline{
+.footerline{
 	position: absolute;
 	background-color: #6C7A89;
     width: 80%;
@@ -233,7 +239,7 @@ footer iframe{
     margin-left: 20px;
 }
 
-#slideshow{
+.slideshow{
 	width:980px;
 	height:650px;
 	margin: auto;
