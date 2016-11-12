@@ -67,9 +67,12 @@ function click (btn) {
 
     for (var i = (btnNo - 1) * 10; i<(10 + (btnNo - 1) * 10); i++) {
     	var line = lines[i];
-    	var topic = document.createElement("p");
-		var text = document.createTextNode(lines[i]);
-		topic.appendChild(text);
-		hLines.appendChild(topic);
+    	if (line !== undefined) {
+    		var topic = document.createElement("p");
+			var text = document.createTextNode(lines[i]);
+			topic.appendChild(text);
+			hLines.appendChild(topic);
+    	}
+
     }
 }

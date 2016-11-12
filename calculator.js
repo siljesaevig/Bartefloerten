@@ -42,6 +42,9 @@ function lovelove() {
     var result = (r + r1) % 100;
     if (result < 75) {
     	result = 77;
+    } else if (isNaN(result)) {
+    	console.log("heyo")
+    	return 0;
     }
     return result;
 }
@@ -51,6 +54,7 @@ function cal() {
     var btn = document.getElementById("resultBtn");
     btn.parentNode.removeChild(btn)
     var viewResult = document.createElement('p');
+    viewResult.style.fontSize = "xx-large"
     var textResult = lovelove();
    	var text = document.createTextNode(textResult);
 	viewResult.appendChild(text);
