@@ -9,7 +9,6 @@ body{
 form {
     display: inline-block;
     width: 30%;
-
 }
 
 #lines {
@@ -32,7 +31,6 @@ h2{
    text-align: center;
 
 }
-
 
 
 #navbar ul {
@@ -199,6 +197,14 @@ footer iframe{
     height: 80px;
     margin-top: 250px;
     margin-left: 20px;
+}
+
+#slideshow{
+	width:980px;
+	height:650px;
+	margin: auto;
+	margin-top:16px!important;
+	margin-bottom:16px!important;
 }
 
 
