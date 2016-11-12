@@ -46,8 +46,8 @@ PURPOSE: A calculator for calculate love. The calculator is made with JavaScript
 	        	<input type="text" name="name" id="name" required />
 	        	<br />
 	        	<label>Gender
-        			<input type="radio" name="mgender" value="0" required /> Male
- 					<input type="radio" name="mgender" value="1" required /> Female
+        			<input id="MMInput" type="radio" name="mgender" value="0" required /> Male
+ 					<input id="MFInput" type="radio" name="mgender" value="1" required /> Female
         		</label>
         		<br />
         		<label for="age">Age</label>
@@ -76,8 +76,8 @@ PURPOSE: A calculator for calculate love. The calculator is made with JavaScript
 	        	<input type="text" name="name" id="fname" required />
 	        	<br />
 	        	<label>Gender
-        			<input type="radio" name="fgender" value="0" required /> Male
- 					<input type="radio" name="fgender" value="1" required /> Female
+        			<input id="FMInput" type="radio" name="fgender" value="0" required /> Male
+ 					<input id="FFInput" type="radio" name="fgender" value="1" required /> Female
         		</label>
         		<br />
         		<label for="age">Age</label>
@@ -101,7 +101,13 @@ PURPOSE: A calculator for calculate love. The calculator is made with JavaScript
 			</form>
 		</div>
 		<div id="result">
-			<button id="resultBtn" onclick="cal()" >Calculate!</button>
+			<button id="resultBtn" type="submit" onclick="cal()" >Calculate!</button>
+		</div>
+		<div id="pResult">
+
+		</div>
+		<div id="reset">
+			<button id="resetBtn" type="submit" onclick="reset()" >Reset!</button>
 		</div>
 
 		<footer class=foot>

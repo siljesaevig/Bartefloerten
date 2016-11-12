@@ -1,3 +1,4 @@
+
 function lovelove() {
 	var mform = document.getElementById("male")
 	const mname = mform.name.value;
@@ -11,7 +12,7 @@ function lovelove() {
 	    }
 	}
 
-    const mage = mform.age.value;
+    const mage = parseInt(mform.age.value);
 
     const msign = document.getElementById("sign")
     const mvsign = parseInt(msign.options[msign.selectedIndex].value) + 1;
@@ -31,7 +32,7 @@ function lovelove() {
 
     const fage = parseInt(fform.age.value);
 
-    const fsign = document.getElementById("sign")
+    const fsign = document.getElementById("fsign")
     const fvsign = parseInt(fsign.options[fsign.selectedIndex].value) + 1;
 
     // ALGORITHM
@@ -43,20 +44,54 @@ function lovelove() {
     if (result < 75) {
     	result = 77;
     } else if (isNaN(result)) {
-    	console.log("heyo")
     	return 0;
     }
     return result;
 }
 
+function reset() {
+	var btn = document.getElementById("resultBtn");
+    //btn.parentNode.removeChild(btn)
+    btn.style.display = '';
+    var p = document.getElementById('pResult');
+    if (p) p.parentNode.removeChild(p);
+
+    var mform = document.getElementById("name")
+	mform.value = ""
+	
+
+	var MFInput = document.getElementById('MFInput');
+	MFInput.checked = false;
+	var MMInput = document.getElementById('MMInput');
+	MMInput.checked = false;
+	document.getElementById("age").value = null;
+
+    var msign = document.getElementById("sign")
+    msign.selectedIndex=0
+
+    var fform = document.getElementById("fname")
+	fform.value = ""
+	
+
+	var FFInput = document.getElementById('FFInput');
+	FFInput.checked = false;
+	var FMInput = document.getElementById('FMInput');
+	FMInput.checked = false;
+	document.getElementById("fage").value = null;
+
+    var fsign = document.getElementById("fsign")
+    fsign.selectedIndex=0
+}
+
 function cal() {
-    var result = document.getElementById("result");
+    var result = document.getElementById("pResult");
     var btn = document.getElementById("resultBtn");
-    btn.parentNode.removeChild(btn)
+    btn.style.display = 'none';
     var viewResult = document.createElement('p');
-    viewResult.style.fontSize = "xx-large"
+    viewResult.style.fontSize = "x-large"
+    viewResult.setAttribute("id", "pResult");
     var textResult = lovelove();
-   	var text = document.createTextNode(textResult);
+   	var text = document.createTextNode(textResult + " % MATCH");
 	viewResult.appendChild(text);
     result.appendChild(viewResult)
 	

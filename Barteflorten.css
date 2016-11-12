@@ -11,7 +11,7 @@ form {
     width: 30%;
 }
 
-#resultBtn {
+#resultBtn, #resetBtn {
         border: none;
     color: white;
     padding: 15px 32px;
@@ -27,6 +27,14 @@ form {
     
 }
 
+#reset {
+    margin-left: 46%;
+}
+
+#pResult {
+    margin-left: 27%;
+}
+
 #formMale {
     margin-left: 33%;
     width: 90%;
@@ -40,7 +48,6 @@ form {
 #lines {
     color : gray;
     list-style-type: none;
-    overflow: scroll;
     width: 80%;
     margin: auto;
     text-align: center;
