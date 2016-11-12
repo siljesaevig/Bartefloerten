@@ -1,3 +1,9 @@
+/*FILE NAME: index.html
+WRITTEN BY: Nuttawut Amonveschayakul
+WHEN: November 2016
+PURPOSE: The homepage for Barteflørten
+*/
+
 const lines = [
 	"Damn Girl is your name Wifi ? Because I’m feeling a connection!",
 	"Hey, tie your shoes! I don’t want you falling for anyone else.",
