@@ -1,3 +1,8 @@
+/*
+FILE NAME: style.html
+WHEN: November 2016
+PURPOSE: Style P4_testing.html
+*/
 h1{
 	text-align: center;
 
@@ -16,7 +21,7 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-#boks {
+.boks {
 	border-style: solid;
 	border-color: pink;
 	border-width: 7px;
@@ -27,6 +32,8 @@ body{
 	width: 70%;
 	margin-left: 15%;
 	margin-top: 1.5%;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 #structure{
 	width: 600px;
@@ -53,12 +60,8 @@ body{
 }
 
 
-#boks h2{
+.boks h2{
 	text-align: center;
-}
-
-#boks p{
-	margin-left: 1.5%;
 }
 
 table {
