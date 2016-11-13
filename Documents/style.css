@@ -1,0 +1,80 @@
+h1{
+	text-align: center;
+
+}
+
+h3{
+	text-align: center;
+	font-size: 19px;
+}
+
+
+
+body{
+	background-color: #ff91a4;
+	color:white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#boks {
+	border-style: solid;
+	border-color: pink;
+	border-width: 7px;
+	border-radius: 20px;
+	font-size: 18px;
+	background-color: white;
+	color: black;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 1.5%;
+}
+#structure{
+	width: 600px;
+	height: 300px;
+	display: inline-block;
+	margin-left: 15%;
+}
+
+#design {
+	width:550px;
+	height: 800px;
+	display: inline-block;
+	margin-left: 15%;
+}
+
+  #navn p{
+	display: inline-block;
+	margin-right: 14.8%;
+	margin-left: 200%;
+}
+
+#margit p{
+	margin-right: 15%;
+}
+
+
+#boks h2{
+	text-align: center;
+}
+
+#boks p{
+	margin-left: 1.5%;
+}
+
+table {
+    text-align: left;
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+
+
+footer{
+	height: 100px;
+	color:black;
+	background-color: #ff91a4;
+	width: 100%;
+	text-align: center;
+}
+

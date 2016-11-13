@@ -1,3 +1,6 @@
+//The functionality of the calculator is an algorithom based on some 
+//calcualtions that are very complicated and makes little sense themself.
+//Why? Because we wanted to and love is complicated.
 
 function lovelove() {
 	var mform = document.getElementById("male")
