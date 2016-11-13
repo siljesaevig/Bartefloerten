@@ -11,6 +11,7 @@ PURPOSE: Showes tips for dating in Trondheim and what you can do at a date.
         <meta charset="utf-8" />
         <link rel="stylesheet" href="Barteflorten.css"/>
         <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto+Condensed|Ubuntu" rel="stylesheet">
+        <script type="text/javascript" src="TipsTilDate.js"></script>
     </head>
     <body>
 		<h1>Barteflørten</h1>
@@ -40,6 +41,17 @@ PURPOSE: Showes tips for dating in Trondheim and what you can do at a date.
 
 		<div class="slideshow">
 			<img  id="slide1" src="img/date.jpg">
+		</div>
+
+		<div id="countDown">
+			<h2>CountDown To Valentine</h2>
+			<p id="print"></p>
+			<script>
+				countDown()
+				setInterval(function(){ 
+   					countDown()
+				}, 60000);
+			</script>
 		</div>
 
 		<div id="tipsliste">

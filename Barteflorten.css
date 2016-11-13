@@ -18,6 +18,11 @@ form {
     width: 30%;
 }
 
+#countDown p {
+    text-align: center;
+    margin-left: 10%;
+}
+
 #resultBtn, #resetBtn {
         border: none;
     color: white;
